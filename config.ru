@@ -1,3 +1,3 @@
-require_relative './boot'
-require_relative './app'
+require_relative './app/boot'
+require_relative './app/app'
 run App

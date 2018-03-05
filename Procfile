@@ -1,1 +1,1 @@
-web: rerun 'rackup'
+web: rackup -p $PORT config.ru

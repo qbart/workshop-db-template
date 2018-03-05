@@ -1,23 +1,30 @@
-# Workshop DB
+# Workshop DB XX
+
+## Configuration
+
+```
+cp config/{database.yml.example,database.yml}
+```
+
 
 ## Installation
 
 ```
 bundle install
-rake db:create db:migrate db:seed
+bundle exec rake db:create db:migrate db:seed
 ```
+
 
 ## Usage
 
 Starting a server:
 
 ```
-foreman start # app will start at http://localhost:9292
+bin/server # localhost:3000
 ```
 
 Starting a console:
 
 ```
-./bin/irb
+bin/irb
 ```
-

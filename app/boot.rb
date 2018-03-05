@@ -7,7 +7,9 @@ require 'sinatra/base'
 require 'sinatra/activerecord'
 
 autoload_dirs = %w[
+  lib
   models
+  helpers
 ]
 
 autoload_dirs.each do |dir|
