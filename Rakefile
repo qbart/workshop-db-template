@@ -1,2 +1,2 @@
-require_relative "./boot"
+require_relative "./app/boot"
 require "sinatra/activerecord/rake"
